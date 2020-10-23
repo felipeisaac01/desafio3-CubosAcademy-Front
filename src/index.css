@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header {
+	background: #2b7148;
+	padding: 15px 100px;
+
+	color: white;
+	font-size: 1.4em;
+line-height: 1;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+form {
+	display: flex;
+	align-items: center;
+}
+
+label {
+	display: flex;
+	align-items: center;
+	
+	margin: 0 15px;
+}
+
+form input {
+	margin: 0 12px;
+	min-height: 24px;
+	padding: 3px 5px;
+	
+	border-radius: 5px;
+	outline: none;
+	border: none;
+}
+
+form button {
+	background: #04375c;
+	padding: 5px 15px;
+	margin-left: 15px;
+	
+	color: white;
+	font-size: 0.8em;
+	
+	border-radius: 5px;
+	border: none;
+	outline: none;
+}	
+
+.conteiner {
+	background: rgb(236, 235, 220);
+	padding: 60px 100px;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.rodada-header {
+	background: rgb(138, 185, 157);
+	padding: 8px 20px;
+	width: 500px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.rodada-header h2 {
+	display: inline-block;
+}
+
+.tabela-da-rodada {
+	width: 500px;
+	max-width: 500px;
+}
+
+.tabela-da-rodada input { 
+	width: 115px;
+}
+
+.tabela-da-rodada img {
+	background-color: rgb(138, 185, 157);
+	border-radius: 15px;
+}
+
+.tabela-da-rodada .casa {
+	text-align: right;
+}
+
+.tabela-da-rodada .visitante {
+	text-align: left;
+}
+
+.tabela-da-rodada .placar {
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: bold;
+	padding: 3px 12px;
+}
+
+table {
+	background: white;
+
+}
+
+.tabela tr:first-child td {
+	background: rgb(138, 185, 157);
+	padding: 12px;
+}
+
+tr:first-child td img {
+	margin-left: 5px
+}
